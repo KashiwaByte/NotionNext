@@ -1,11 +1,11 @@
 const CONFIG = {
   HOME_BANNER_ENABLE: true,
 
-  SITE_CREATE_TIME: '2021-09-21', // 建站日期，用于计算网站运行的第几天
+  SITE_CREATE_TIME: '2023-07-25', // 建站日期，用于计算网站运行的第几天
 
   // 首页顶部通知条滚动内容，如不需要可以留空 []
   NOTICE_BAR: [
-    { title: '欢迎来到我的博客', url: 'https://blog.tangly1024.com' },
+    { title: '欢迎来到我的博客', url: 'https://www.kashiwabyte.tech' },
     { title: '访问文档中心获取更多帮助', url: 'https://docs.tangly1024.com' }
   ],
 
@@ -15,7 +15,7 @@ const CONFIG = {
   HERO_TITLE_3: 'TANGLY1024.COM',
   HERO_TITLE_4: '新版上线',
   HERO_TITLE_5: 'NotionNext4.0 轻松定制主题',
-  HERO_TITLE_LINK: 'https://tangly1024.com',
+  HERO_TITLE_LINK: 'https://www.kashiwabyte.tech',
 
   // 英雄区显示三个置顶分类
   HERO_CATEGORY_1: { title: '必看精选', url: '/tag/必看精选' },
@@ -121,7 +121,7 @@ const CONFIG = {
   ARTICLE_RECOMMEND: true, // 文章关联推荐
 
   WIDGET_LATEST_POSTS: true, // 显示最新文章卡
-  WIDGET_ANALYTICS: false, // 显示统计卡
+  WIDGET_ANALYTICS: true, // 显示统计卡
   WIDGET_TO_TOP: true,
   WIDGET_TO_COMMENT: true, // 跳到评论区
   WIDGET_DARK_MODE: true, // 夜间模式
